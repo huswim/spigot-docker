@@ -1,0 +1,9 @@
+services:
+  spigot:
+    image: spigot:latest
+    volumes:
+      - ./data:/game
+    ports:
+      - 25566:25565
+    stdin_open: true
+    tty: true
