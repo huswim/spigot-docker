@@ -7,3 +7,4 @@ services:
       - 25566:25565
     stdin_open: true
     tty: true
+    restart: unless-stopped
